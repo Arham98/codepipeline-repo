@@ -13,4 +13,4 @@ sudo su
 npm install
 
 # Starting web application in the background
-node web-app/index.js > app.out.log 2> app.err.log < /dev/null & 
+nohup node index.js > /dev/null 2>&1 &

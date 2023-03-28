@@ -5,6 +5,7 @@ sudo chmod -R 777 /home/ec2-user/git-files/web-app
 cd /home/ec2-user/git-files/web-app
 npm install
 mkdir test
+nohup node index.js > /dev/null 2>&1 & 
 # sudo su
 # cd /home/ec2-user/git-files/web-app
 # npm run start

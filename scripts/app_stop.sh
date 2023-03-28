@@ -2,4 +2,4 @@
 
 #Stopping existing node servers
 echo "Stopping node server"
-pkill node
+sudo pkill node

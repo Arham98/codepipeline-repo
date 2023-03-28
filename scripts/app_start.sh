@@ -6,8 +6,11 @@ sudo chmod -R 777 /home/ec2-user/git-files/web-app
 # Navigating to the web application folder
 cd /home/ec2-user/git-files/web-app
 
+# Enabling admin access
+sudo su
+
 # Installing node modules for the web application
-sudo npm install
+npm install
 
 # Starting web application in the background
-sudo node web-app/index.js > app.out.log 2> app.err.log < /dev/null & 
+node web-app/index.js > app.out.log 2> app.err.log < /dev/null & 

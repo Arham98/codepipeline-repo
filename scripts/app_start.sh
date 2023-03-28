@@ -13,4 +13,4 @@ cd /home/ec2-user/git-files/web-app
 npm install
 
 # Starting web application in the background
-nohup node index.js > /dev/null 2>&1 &
+nohup node index.js > /dev/null 2>&1 & 

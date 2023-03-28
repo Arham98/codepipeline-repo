@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Providing complete permissions to the web-app folder
-sudo chmod -R 777 /home/ec2-user/web-app
+# Providing complete permissions to the get-files folder
+sudo chmod -R 777 /home/ec2-user/get-files
 
 # Navigating to the web application folder
-cd /home/ec2-user/web-app
+cd /home/ec2-user/get-files/web-app
 
 # Installing node modules for the web application
 npm install
